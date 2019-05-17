@@ -23,7 +23,7 @@ STATIC_URL = "/static/"
 # 数据库配置信息
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',   # 默认用mysql
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'open_paas',
         'USER': 'root',
         'PASSWORD': '',
